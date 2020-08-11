@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Brown">#595238</color>
+    <color name="torquoise1">#1dd3bd</color>
+    <color name="torquoise2">#2bb2bb</color>
+    <color name="torquoise3">#87d4c5</color>
+</resources>
