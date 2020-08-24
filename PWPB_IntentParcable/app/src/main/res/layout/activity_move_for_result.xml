@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activit_vertical_margin"
+    android:layout_marginTop="@dimen/activit_vertical_margin"
+    android:layout_marginRight="@dimen/activit_horizontal_margin"
+    android:layout_marginLeft="@dimen/activit_horizontal_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activit_vertical_margin"
+        android:text="choose_number"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_number"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_50"
+            android:layout_marginBottom="@dimen/activit_vertical_margin"
+            android:text="50"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_100"
+            android:layout_marginBottom="@dimen/activit_vertical_margin"
+            android:text="100"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_150"
+            android:layout_marginBottom="@dimen/activit_vertical_margin"
+            android:text="150"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_200"
+            android:layout_marginBottom="@dimen/activit_vertical_margin"
+            android:text="200"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_choose"
+        android:text="pilih"
+        android:layout_marginBottom="@dimen/activit_vertical_margin"/>
+
+</LinearLayout>
