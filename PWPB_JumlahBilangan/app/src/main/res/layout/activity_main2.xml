@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menjumlahkan 2 Bilangan"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/txt1"
+        android:layout_below="@id/textview"
+        android:layout_width="150dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_height="wrap_content"
+        android:text="Masukan Bilangan Pertama" />
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/bil1"
+        android:layout_below="@id/txt1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:outlineSpotShadowColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/txt2"
+        android:layout_toRightOf="@id/txt1"
+        android:layout_below="@id/textview"
+        android:layout_width="150dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_height="wrap_content"
+        android:text="Masukan Bilangan Pertama" />
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/bil2"
+        android:layout_toRightOf="@id/bil1"
+        android:layout_below="@id/txt2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:outlineSpotShadowColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_below="@id/textview"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:backgroundTint="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="150dp"
+            android:layout_marginTop="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textAlignment="center"
+            android:text="No Data"
+            android:layout_below="@+id/btn"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
